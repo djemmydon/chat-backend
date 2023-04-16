@@ -12,6 +12,8 @@ export const CreatePost = async () => {
       }
       
 
-
+    const addPost = new Post({
+    
+    })
   } catch (error) {}
 };
