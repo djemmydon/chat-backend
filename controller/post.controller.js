@@ -1,0 +1,21 @@
+import Post from "../model/postModel";
+import User from "../model/userMode";
+
+export const CreatePost = async () => {
+  const { title, image, email } = req.body;
+
+  const user = await findOne({ email });
+
+  try {
+    if (!user) {
+      res.status(500).json("User Not Found");
+      }
+      
+
+    const addPost = new Post({
+    
+    })
+  } catch (error) {}
+};
+export const EditPost = async () => {};
+export const DeletPost = async () => {};
