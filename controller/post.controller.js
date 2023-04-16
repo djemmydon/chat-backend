@@ -17,5 +17,3 @@ export const CreatePost = async () => {
     })
   } catch (error) {}
 };
-export const EditPost = async () => {};
-export const DeletPost = async () => {};
